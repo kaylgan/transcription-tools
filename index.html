@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Transcription Tools</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <textarea id="fullText" rows="1" cols="5" placeholder="Paste an answer key here."></textarea>
+
+      <div class="buttonsDiv">
+        <button type="button" id="taButton">Transcribe</button>
+        <button type="button" id="puncButton">Punctuate</button>
+        <button type="button" id="hideButton">Show Key</button>
+      </div>
+
+      <div class="sentenceContainer">
+        <div id="puncPractice">without punctuation here.</div>
+      </div>
+
+      <textarea id="userText" rows="1" cols="5" placeholder="Type your sentence here. Use tab to navigate, shift-tab to type a tab."></textarea>
+
+      <div class="buttonsDiv">
+        <button type="button" id="checkButton">Check Answer</button>
+      </div>
+
+
+
+      <div class="sentenceContainer">
+        <div id="test"></div>
+
+        <div id="keySentence">Key Sentence</div>
+        <div id="comparedSentence">User Sentence</div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="transcription.js"></script>
+  </body>
+</html>

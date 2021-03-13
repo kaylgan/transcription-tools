@@ -1,0 +1,72 @@
+#container {
+  width: 94%;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 90%;
+  border-radius: 10px;
+  resize: none;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+#fullText {
+  height: 30vh;
+}
+
+#userText {
+  height: 10vh;
+  margin-top: 10px;
+}
+
+.buttonsDiv {
+  text-align: center;
+}
+
+button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #666666;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+button:hover {
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+.sentenceContainer {
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
+
+.added {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: red;
+  font-weight: bold;
+}
+
+.missed {
+  color: red;
+  font-weight: bold;
+}

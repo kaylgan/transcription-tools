@@ -1,0 +1,12 @@
+resolved 20200916: punctuation left off at ends of some sentences
+  added second parameter to indexOf to specify where search should start. otherwise, was starting from beginning each time,
+  so repeated words were always matching first instance in key
+resolved 20200916: .com not working all the times
+  changed to global replace. escaped . (otherwise was replacing com in combat, for instance)
+resolved 20200916: tab
+  added shift-tab event listener to allow indenting
+resolved 20200918: change focus after button press to be in text area
+
+
+resolved? 20200918: shift alone is triggering shift-tab after tab.
+  added conditions for just tab, just shift. seems to be working so far.

@@ -1,0 +1,47 @@
+This is the sentence. This is the sentence.
+This|This is|is the|the sentence|sentence .|.
+
+This is the first sentence. This is the second sentence.
+This|This is|is the|the first|second sentence|sentence .|.
+
+This is the first one sentence. This is the second two sentence.
+This|This is|is the|the first|second one|two sentence|sentence .|.
+
+This is the first sentence. This is the sentence.
+This|This is|is the|the [first] sentence.|sentence .
+
+This is the sentence. This is the second sentence.
+This|This is|is the|the [second] sentence|sentence. .
+
+This is the first one sentence. This is the sentence.
+This|This is|is the|the [first] [one] sentence.|sentence .
+
+This is the sentence. This is the second two sentence.
+This|This is|is the|the [second] [two] sentence|sentence. .
+
+This is the first sentence right here. This is the sentence.
+This|This is|is the|the [first] sentence|sentence . [right] [here.]
+
+This is the sentence. This is the second sentence right here.
+This|This is|is the|the [second] sentence|sentence . [right] [here.]
+
+This sentence. This sentence
+This|This sentence|sentence .
+
+This first sentence, here. This sentence here.
+This|This first|sentence [sentence,] sentence|here ,|.
+
+This first sentence here. This sentence, here.
+This|This [first] sentence|sentence , here|here .|.
+
+This first sentence, here. This sentence, here.
+This|This [first] sentence,|sentence , here|here .|.
+
+This sentence, here. This second sentence here.
+This|This [second] sentence|sentence , here|here .|.
+
+This sentence here. This second sentence, here.
+This|This sentence|second [sentence,] here|sentence .|,
+
+This sentence, here. This second sentence, here.
+This|This [second] sentence|sentence, , here|here .|.
